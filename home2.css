@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+}
+#pic1{
+    height: 40px ;
+    width: 10vw ;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: white;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bolder;
+    list-style: none;
+    position: sticky;
+    top: 0px;
+    z-index: 7;
+}
+#d{height: 50px;
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+.d1{
+    position: relative;
+    left: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight:bolder;
+    color: rgb(99, 97, 97);
+    list-style-type: none;
+    font-family: Georgia, Verdana, Geneva, Tahoma, sans-serif;
+}
+.d1:hover{
+    color: rgb(116, 23, 125);
+    background-color: aliceblue;
+}
+#e{
+    position: absolute;
+    left: 76%;
+}
+#a{
+    position: absolute;
+    left: 92%;
+}
+#b{
+    position: absolute;
+    left: 95%;
+}
+#c{
+    position: absolute;
+    left: 98%;
+}
+  
+#flex-container{
+    background-color: blueviolet;
+    height: 830px;
+    width: 100vw;
+    /* background-image: url("im/gir.png"); */
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(64, 11, 113, 0.677) 40%, pink);
+}
+
+dl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    list-style-type: none;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes fade {
+    /* from{
+        background-color: rgb(170, 22, 175);
+    }
+    to{
+        background-color: rgb(19, 152, 169);
+    } */
+    0%,21%,35%,45%,63%,80.5%,93.3%,100%{
+        color:black;
+        
+        }
+        1%,5%,10%,13%,15.5%,20%,50%,70%,85%,90%,95%,100%{
+        color: rgb(79, 77, 77);
+        }
+}
+#f1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* position: sticky; */
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+#f2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    /* position: fixed; */
+    /* position: relative;
+    right: 2%; */
+    z-index: -1;
+}
+#butt{
+    background-color: rgb(14, 74, 112);
+    color: rgb(16, 14, 14);
+    height: 50px;
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: -1;
+    /* position: sticky; */
+    /* position: relative;
+    right: 1%; */
+    /* justify-content: space-around; */
+    /* background-size: 50% 100%; */
+}
+#butt:hover{
+    background-color: rgb(95, 84, 90);
+}
+#i1{
+    padding-top: 10%;
+    padding-left: 10%;
+}
+#i1:hover{
+    transform: rotate(60deg);
+}
+#g{
+    list-style-type: none;
+    margin-left: 40%;
+    position: relative;
+    bottom: 160px;
+    z-index: -1;
+}
+#g1{
+    margin-left: 14%;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#g2{
+    padding: 1%;
+    color: rgb(109, 23, 117);
+    /* animation-name: fade ;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    /* animation: mymove 5s infinite; */
+
+}
+/* @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+} */
+#g3{
+    margin-left: 12%;
+    padding: 1%;
+    color: rgb(109, 23, 117);
+}
+
+ul {
+    width: 800px;
+    height: 300px;
+    background-color: rgb(124, 94, 118);
+    /* background-color: white; */
+    font-weight: bold;
+    border-radius: 50px;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  #div1 {
+    /* background-image: url("im/bridal");
+    background-repeat: no-repeat; */
+    /* height: 100px;
+    width: 50vw; */
+    padding: 1%;
+    animation-timing-function: linear;
+    position: relative;
+    z-index: -1;
+}
+  #div2 {
+    padding: 1%; 
+    animation-timing-function: ease;
+    z-index: -1;
+}
+  #div3 {
+    /* background-image: url("im/haircare.avif"); */
+    padding: 1%;
+    animation-timing-function: ease-in;
+    z-index: -1;
+}
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 700px;}
+}  
+.z1{
+    border-radius: 50px;
+}
+.l4{
+    list-style-type: none;
+    position: relative;
+    left: 50%;
+    bottom: 80%;
+    color: white;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.l5{
+    list-style-type: none;
+    position: relative;
+    left: 50%;
+    bottom: 80%;
+    color: white;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.l6{
+    list-style-type: none;
+    position: relative;
+    left: 50%;
+    bottom: 80%;
+    color: white;
+    padding: 1%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+video{
+    height: 1000px;
+    width: 1000px;
+    border-radius: 500px;
+    margin-left: 18%;
+}
+#iml{
+    position: relative;
+    bottom: 1000px;
+    left: 1150px;
+    z-index: -1;
+}
+footer {
+    background-image: linear-gradient(purple,blueviolet);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+#z1{
+    border-top: #f7f7f7 solid 0.5px;
+    padding: 20px;
+}
+
+footer div{
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+footer h3{
+    display: flex;
+    align-items: flex-start;
+}
+.foo{
+    list-style-type: none;
+    position: relative;
+    left: 500px;
+    bottom: 120px;
+}
